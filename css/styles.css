@@ -126,6 +126,7 @@ img {
   font-size: 14px;
   line-height: 1.17;
   display: flex;
+  transition: color 300ms linear;
 }
 .site-nav .current::after {
   position: absolute;
@@ -149,6 +150,7 @@ img {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .site-nav .current {
   color: var(--accent-color);
@@ -171,6 +173,7 @@ img {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  
 }
 
 .header-contact-list .item + .item {
@@ -184,6 +187,7 @@ img {
   padding-bottom: 32px;
   margin-bottom: 0;
   color: var(--text-color);
+  transition: color 300ms linear;
 }
 
 .header-contact-list .mail:hover,
@@ -201,6 +205,7 @@ img {
 
   width: 18px;
   height: 18px;
+  transition: color 300ms linear;
 }
 
 .icon-phone {
@@ -208,6 +213,7 @@ img {
   height: 16px;
 
   margin-right: 10px;
+  transition: color 300ms linear;
 }
 
 header {
@@ -259,6 +265,7 @@ header {
   padding: 10px 32px;
   display: block;
   margin: auto;
+  
 }
 
 .primary-btn:hover,
@@ -503,6 +510,7 @@ header {
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  
 }
 
 .link-icon:hover,
