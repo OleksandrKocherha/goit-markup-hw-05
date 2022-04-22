@@ -211,7 +211,7 @@ header a {
   font-weight: var(--font-weight-main);
   line-height: 1.14;
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--text-color);
   font-style: normal;
   letter-spacing: 0.02em;
 
@@ -220,7 +220,7 @@ header a {
 
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--hover-color);
+  color: var(--accent-color);
 }
 
 .icon-header-mail {
@@ -530,8 +530,8 @@ header a {
 
 .link-icon:hover,
 .link-icon:focus {
-  color: #2196f3;
-  border: 1px solid #2196f3;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .icon-clients {
