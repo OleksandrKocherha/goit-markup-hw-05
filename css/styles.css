@@ -187,7 +187,9 @@ img {
   padding-bottom: 32px;
   margin-bottom: 0;
   color: var(--text-color);
-  transition: color 300ms linear;
+  background-color: transparent;
+  transition: background-color 300ms linear, color 300ms linear;
+}
 }
 
 .header-contact-list .mail:hover,
@@ -265,12 +267,14 @@ header {
   padding: 10px 32px;
   display: block;
   margin: auto;
-  
+  background-color: transparent;
+  transition: background-color 300ms linear, color 300ms linear;
 }
 
 .primary-btn:hover,
 .primary-btn:focus {
   background-color: var(--primary-btn-hover-color);
+  
 }
 
 /* features */
